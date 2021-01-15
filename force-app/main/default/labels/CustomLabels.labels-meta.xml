@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>InscricaoEstadualAPIncorreta</fullName>
+        <categories>Apex</categories>
+        <language>pt_BR</language>
+        <protected>false</protected>
+        <shortDescription>InscricaoEstadualAPIncorreta</shortDescription>
+        <value>AP: Inscrição estadual incorreta:</value>
+    </labels>
+    <labels>
+        <fullName>InscricaoEstadualAPInvalida</fullName>
+        <categories>Apex</categories>
+        <language>pt_BR</language>
+        <protected>false</protected>
+        <shortDescription>InscricaoEstadualAPInvalida</shortDescription>
+        <value>AP: Inscrição estadual fora do range [03000001,03999999]:</value>
+    </labels>
+    <labels>
+        <fullName>InscricaoEstadualInvalida</fullName>
+        <categories>Apex</categories>
+        <language>pt_BR</language>
+        <protected>false</protected>
+        <shortDescription>InscricaoEstadualInvalida</shortDescription>
+        <value>Inscrição estadual inválida</value>
+    </labels>
+</CustomLabels>
