@@ -321,26 +321,14 @@ public class ValidadorIETest
         
         System.assertEquals(false, tamanhoValido, 'A validação deveria ser FALSE, pois a inscrição estadual EM BRANCO para QUALQUER estado deverá ser invalidada');
     }
-    
-    
-    /*
-    
-    
-    
-    
+
     @isTest
-    public static void validadorIETamInvalido()
-    {        
-        Boolean tamanhoValido;
-        
-        
-        ValidadorIE v = new ValidadorIE();
-        v.inscricaoEstadual = '123456';
-        v.tamanho = 2;
+    public static void validadorIEErrado()
+    {
+        ValidadorIE vie = new ValidadorIE(10, 8, 3, 9, true, new List<String>());
         Test.startTest();
-        tamanhoValido = v.tamanhoValidado();
+        vie.inscricaoEstadual = '1234567890';
+        vie.execute();
         Test.stopTest();
-        
-        System.assert(!tamanhoValido);
-    } */ 
+    }
 }
