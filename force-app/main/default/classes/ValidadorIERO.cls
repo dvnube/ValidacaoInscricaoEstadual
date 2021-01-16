@@ -7,6 +7,8 @@ public class ValidadorIERO extends ValidadorIE implements IValidadorIE
     
     public override Boolean execute(String inscricaoEstadual)
     {
+        inscricaoEstadual = inscricaoEstadual.replaceaLL('[^0-9]', '');  //apenas números
+        
         if (String.isNotBlank(inscricaoEstadual) && inscricaoEstadual.length() != 14) //antes de 01/08/2000
         {
             inscricaoEstadual = inscricaoEstadual.substring(3,inscricaoEstadual.length()); //3 primeiros dígitos são do município e não entram no cálculo

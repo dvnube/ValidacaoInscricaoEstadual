@@ -27,6 +27,8 @@ public class ValidadorIEAP extends ValidadorIE implements IValidadorIE
     
     public override Boolean execute(String inscricaoEstadual)
     {
+        inscricaoEstadual = inscricaoEstadual.replaceaLL('[^0-9]', '');  //apenas números
+        
         try
         {
         	inscricaoEstadualNumber = Integer.valueOf(inscricaoEstadual.substring(0,inscricaoEstadual.length()-1));

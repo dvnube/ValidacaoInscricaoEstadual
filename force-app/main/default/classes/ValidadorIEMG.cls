@@ -9,7 +9,8 @@ public class ValidadorIEMG extends ValidadorIE implements IValidadorIE
     
     public override Boolean execute(String inscricaoEstadual)
     {
-        this.inscricaoEstadual = inscricaoEstadual.replaceaLL('[^0-9]', '');  //apenas números
+        inscricaoEstadual = inscricaoEstadual.replaceaLL('[^0-9]', '');  //apenas números
+        this.inscricaoEstadual = inscricaoEstadual;
         //Adiciona um 0 após o código do município
         inscricaoEstadualAuxiliar = inscricaoEstadual.left(3) + '0' + inscricaoEstadual.substring(3);
         

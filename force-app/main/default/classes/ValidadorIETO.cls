@@ -9,6 +9,8 @@ public class ValidadorIETO extends ValidadorIE implements IValidadorIE
     
     public override Boolean execute(String inscricaoEstadual)
     {
+        inscricaoEstadual = inscricaoEstadual.replaceaLL('[^0-9]', '');  //apenas números
+        
         if (String.isNotBlank(inscricaoEstadual))
         {
             inscricaoEstadualAux = inscricaoEstadual;
