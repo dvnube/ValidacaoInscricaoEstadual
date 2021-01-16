@@ -1,4 +1,4 @@
-<a href="https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000IE5SAAW">
+<a href="https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000IE9fAAG">
   <img alt="Deploy to Salesforce (Sandbox)"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
