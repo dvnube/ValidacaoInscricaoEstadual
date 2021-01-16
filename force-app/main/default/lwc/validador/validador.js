@@ -1,12 +1,21 @@
-import { LightningElement, api } from "lwc";
+import { LightningElement, track, api } from "lwc";
 import { ShowToastEvent } from "lightning/platformShowToastEvent";
 import getEstados from "@salesforce/apex/ValidadorController.getEstados";
 import check from "@salesforce/apex/ValidadorController.check";
 import FORM_FACTOR from "@salesforce/client/formFactor";
+import DVNUBE_SVG from "@salesforce/resourceUrl/dvnube_svg";
 
 export default class Validador extends LightningElement {
-  @api icon = "utility:einstein";
-  @api title = "Validador de Inscrição Estadual";
+  @api icon;
+  @api title;
+  @api labelEstado;
+  @api placeholderEstado;
+  @api labelInscricaoEstadual;
+  @api placeholderInscricaoEstadual;
+  @api labelResultadoValidacao;
+  @api labelBotaoValidar;
+  @api iconeAprovado;
+  @api iconeReprovado;
 
   estados = [];
   values = {};
@@ -15,6 +24,11 @@ export default class Validador extends LightningElement {
   valid;
   loading = false;
 
+  get iconDVNube() {
+    return DVNUBE_SVG;
+  }
+
+  @track
   approval = {
     iconNameApproval: "",
     alternativeTextApproval: "",
@@ -95,7 +109,7 @@ export default class Validador extends LightningElement {
             "error"
           );
 
-          this.setApproval("action:close", "Reprovado", "Reprovado");
+          this.setApproval(this.iconeReprovado, "Reprovado", "Reprovado");
           this.loading = false;
         });
     }
@@ -103,9 +117,9 @@ export default class Validador extends LightningElement {
 
   handleApproval(result) {
     if (result) {
-      this.setApproval("action:approval", "Aprovado", "Aprovado");
+      this.setApproval(this.iconeAprovado, "Aprovado", "Aprovado");
     } else {
-      this.setApproval("action:close", "Reprovado", "Reprovado");
+      this.setApproval(this.iconeReprovado, "Reprovado", "Reprovado");
     }
   }
 
@@ -125,8 +139,6 @@ export default class Validador extends LightningElement {
 
     return allValid;
   }
-
-  msg1 = "";
 
   handleChangeInput(event) {
     let dataset = event.currentTarget.dataset;

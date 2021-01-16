@@ -11,9 +11,16 @@
     </targets>
     <targetConfigs>
         <targetConfig targets="lightning__RecordPage,lightning__AppPage,lightning__HomePage">
-            <property name="icon" type="String" />
-            <property name="title" type="String" />
-            <!-- <property name="variant" type="String" datasource="base,shaded" /> -->
+            <property name="icon" type="String" default="utility:approval" description="Ícone do card" label="Ícone" required="true"/>
+            <property name="title" type="String" default="Validador de Inscrição Estadual" description="Título do card" label="Título" required="true"/>
+            <property name="labelEstado" type="String" default="Estado" description="Label do campo Estado" label="Label da combobox de Estado" required="true"/>
+            <property name="placeholderEstado" type="String" default="Selecione um estado" description="Placeholder do campo Estado" label="Placeholder da combobox de Estado"/>
+            <property name="labelInscricaoEstadual" type="String" default="Inscrição Estadual" description="Label do campo Inscrição Estadual" label="Label da Inscrição Estadual" required="true"/>
+            <property name="placeholderInscricaoEstadual" type="String" description="Placeholder do campo Inscrição Estadual" label="Placeholder da Inscrição Estadual"/>
+            <property name="labelResultadoValidacao" type="String" default="Validação" description="Label do resultado da validação" label="Label do resultado da validação" required="true"/>
+            <property name="labelBotaoValidar" type="String" default="Validar" description="Label do botão" label="Label do botão" required="true"/>
+            <property name="iconeAprovado" type="String" default="action:approval" description="Ícone da validação aprovada" label="Ícone reprovado" required="true"/>
+            <property name="iconeReprovado" type="String" default="action:close" description="Ícone do validação reprovada" label="Ícone reprovado" required="true"/>
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>

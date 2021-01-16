@@ -1,14 +1,35 @@
 <template>
-  <lightning-card variant="Narrow" title={title} icon-name={icon}>
+  <lightning-card>
     <template if:true={loading}>
       <lightning-spinner></lightning-spinner>
     </template>
 
+    <div slot="title" class="title">
+      <div>
+        <div>
+          <lightning-icon icon-name={icon} size="small"></lightning-icon>
+        </div>
+        <div>{title}</div>
+      </div>
+
+      <div class="icon-dvnube">
+        <img src={iconDVNube} alt="DVNube" />
+      </div>
+    </div>
+
+    <div slot="footer">
+      <lightning-button
+        variant="brand"
+        label={labelBotaoValidar}
+        title={labelBotaoValidar}
+        onclick={handleClick}
+      ></lightning-button>
+    </div>
     <div class={gridClassFormFactor}>
       <div class="estado slds-text-align_left">
         <lightning-combobox
-          label="Estado"
-          placeholder="Selecione o estado"
+          label={labelEstado}
+          placeholder={placeholderEstado}
           options={estados}
           onchange={handleChangeInput}
           data-attributename="valueEstado"
@@ -20,18 +41,68 @@
       <div class="inscricao-estadual slds-text-align_left">
         <lightning-input
           type="text"
-          label="Inscrição Estadual"
+          label={labelInscricaoEstadual}
+          placeholder={placeholderInscricaoEstadual}
           value={valueInscEst}
           onchange={handleChangeInput}
           data-attributename="valueInscEst"
           required
-          message-when-value-missing={msg1}
           class="custom-required"
         ></lightning-input>
       </div>
       <div class="validation-message">
         <div>
-          <label class="slds-form-element__label slds-no-flex">Validação</label>
+          <label class="slds-form-element__label slds-no-flex"
+            >{labelResultadoValidacao}</label
+          >
+        </div>
+        <div class="icon">
+          <lightning-icon
+            icon-name={iconNameApproval}
+            alternative-text={alternativeTextApproval}
+            title={titleApproval}
+            size="xx-small"
+          ></lightning-icon>
+        </div>
+      </div>
+    </div>
+  </lightning-card>
+
+  <!-- <lightning-card variant="Narrow" title={title} icon-name={icon}>
+    <template if:true={loading}>
+      <lightning-spinner></lightning-spinner>
+    </template>
+
+    <div class={gridClassFormFactor}>
+      <div class="estado slds-text-align_left">
+        <lightning-combobox
+          label={labelEstado}
+          placeholder={placeholderEstado}
+          options={estados}
+          onchange={handleChangeInput}
+          data-attributename="valueEstado"
+          required
+          class="custom-required"
+          spinner-active
+        ></lightning-combobox>
+      </div>
+      <div class="inscricao-estadual slds-text-align_left">
+        <lightning-input
+          type="text"
+          label={labelInscricaoEstadual}
+          placeholder={placeholderInscricaoEstadual}
+          value={valueInscEst}
+          onchange={handleChangeInput}
+          data-attributename="valueInscEst"
+          required
+          class="custom-required"
+        ></lightning-input>
+      </div>
+      <div class="validation-message">
+        <div>
+          <label class="slds-form-element__label slds-no-flex"
+            >{labelResultadoValidacao}</label
+          >
         </div>
         <div class="icon">
           <lightning-icon
@@ -46,10 +117,10 @@
     <div class="slds-card__footer">
       <lightning-button
         variant="brand"
-        label="Validar"
-        title="Validar"
+        label={labelBotaoValidar}
+        title={labelBotaoValidar}
         onclick={handleClick}
       ></lightning-button>
     </div>
-  </lightning-card>
+  </lightning-card> -->
 </template>

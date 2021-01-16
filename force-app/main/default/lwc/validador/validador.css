@@ -1,3 +1,17 @@
+.title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.icon-dvnube {
+  grid-column-start: end;
+}
+.icon-dvnube > img {
+  float: right;
+  max-width: 25%;
+}
+
 .grid {
   display: grid;
   border-top: 1px solid #dddbda;
