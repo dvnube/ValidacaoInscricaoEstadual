@@ -1,9 +1,6 @@
-span.slds-text-heading_small.slds-truncate {
-  width: 100% !important;
-}
 .title {
   display: grid;
-  grid-template-columns: 1fr 1fr 10fr;
+  grid-template-columns: 3rem 1fr 1fr;
   align-items: center;
 }
 
