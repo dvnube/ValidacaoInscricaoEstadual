@@ -4,6 +4,8 @@ import getEstados from "@salesforce/apex/ValidadorController.getEstados";
 import check from "@salesforce/apex/ValidadorController.check";
 import FORM_FACTOR from "@salesforce/client/formFactor";
 import DVNUBE_SVG from "@salesforce/resourceUrl/dvnube_svg";
+import { loadStyle } from "lightning/platformResourceLoader";
+import cssResource from "@salesforce/resourceUrl/cssResource";
 
 export default class Validador extends LightningElement {
   @api icon;
@@ -65,6 +67,7 @@ export default class Validador extends LightningElement {
   }
 
   connectedCallback() {
+    loadStyle(this, cssResource);
     this.loadEstados();
   }
 
