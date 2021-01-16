@@ -1,5 +1,8 @@
-<a href="https://githubsfdeploy.herokuapp.com?owner=dvnube&repo=ValidacaoInscricaoEstadual&ref=master">
-  <img alt="Deploy to Salesforce"
+<a href="https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000IE5SAAW">
+  <img alt="Deploy to Salesforce (Sandbox)"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
-teste
+<a href="https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000IE5SAAW">
+  <img alt="Deploy to Salesforce (Production)"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
