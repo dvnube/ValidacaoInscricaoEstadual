@@ -1,15 +1,14 @@
+span.slds-text-heading_small.slds-truncate {
+  width: 100% !important;
+}
 .title {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 10fr;
   align-items: center;
 }
 
 .icon-dvnube {
   grid-column-start: end;
-}
-.icon-dvnube > img {
-  float: right;
-  max-width: 25%;
 }
 
 .grid {

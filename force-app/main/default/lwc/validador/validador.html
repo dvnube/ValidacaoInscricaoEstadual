@@ -4,18 +4,17 @@
       <lightning-spinner></lightning-spinner>
     </template>
 
-    <div slot="title" class="title">
-      <div>
+    <h3 slot="title">
+      <div class="title">
         <div>
           <lightning-icon icon-name={icon} size="small"></lightning-icon>
         </div>
         <div>{title}</div>
+        <div class="icon-dvnube">
+          <img src={iconDVNube} alt="DVNube" class="img-dvnube" />
+        </div>
       </div>
-
-      <div class="icon-dvnube">
-        <img src={iconDVNube} alt="DVNube" />
-      </div>
-    </div>
+    </h3>
 
     <div slot="footer">
       <lightning-button
