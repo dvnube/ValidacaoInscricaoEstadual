@@ -12,7 +12,7 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "50.0",
     "packageAliases": {
-        "ValidacaoInscricaoEstadual": "0Ho3h00000000YICAY",
-        "ValidacaoInscricaoEstadual@1.0.0-1": "04t3h000004OUJ8AAO"
+        "ValidacaoInscricaoEstadual": "0Ho4x000000oLrWCAU",
+        "ValidacaoInscricaoEstadual@1.0.0-1": "04t4x000000IE58AAG"
     }
 }
