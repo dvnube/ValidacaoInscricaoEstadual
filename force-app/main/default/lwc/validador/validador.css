@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  border-top: 1px solid #dddbda;
+  padding: 1rem;
+  grid-gap: 1rem;
+  align-items: center;
+}
+.desktop {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.validation-message {
+  display: grid;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  padding: 0.01em 16px;
+}
+
+.icon {
+  padding: 0.5rem;
+}

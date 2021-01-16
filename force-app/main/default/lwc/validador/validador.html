@@ -1,3 +1,55 @@
 <template>
-    
+  <lightning-card variant="Narrow" title={title} icon-name={icon}>
+    <template if:true={loading}>
+      <lightning-spinner></lightning-spinner>
+    </template>
+
+    <div class={gridClassFormFactor}>
+      <div class="estado slds-text-align_left">
+        <lightning-combobox
+          label="Estado"
+          placeholder="Selecione o estado"
+          options={estados}
+          onchange={handleChangeInput}
+          data-attributename="valueEstado"
+          required
+          class="custom-required"
+          spinner-active
+        ></lightning-combobox>
+      </div>
+      <div class="inscricao-estadual slds-text-align_left">
+        <lightning-input
+          type="text"
+          label="Inscrição Estadual"
+          value={valueInscEst}
+          onchange={handleChangeInput}
+          data-attributename="valueInscEst"
+          required
+          message-when-value-missing={msg1}
+          class="custom-required"
+        ></lightning-input>
+      </div>
+      <div class="validation-message">
+        <div>
+          <label class="slds-form-element__label slds-no-flex">Validação</label>
+        </div>
+        <div class="icon">
+          <lightning-icon
+            icon-name={iconNameApproval}
+            alternative-text={alternativeTextApproval}
+            title={titleApproval}
+            size="xx-small"
+          ></lightning-icon>
+        </div>
+      </div>
+    </div>
+    <div class="slds-card__footer">
+      <lightning-button
+        variant="brand"
+        label="Validar"
+        title="Validar"
+        onclick={handleClick}
+      ></lightning-button>
+    </div>
+  </lightning-card>
 </template>
