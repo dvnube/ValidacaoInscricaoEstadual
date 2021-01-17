@@ -15,7 +15,7 @@ Sobre
 ==
 
 - Inicialmente eu desenvolvi apenas o "motor" de validação de [Inscrição Estadual](http://www.sintegra.gov.br/insc_est.html) para um cliente que não queria depender de API de terceiros.
-- Agora eu resolvi aprimorá-lo e construí um [Lightning Web Component](https://trailhead.salesforce.com/pt-BR/content/learn/modules/lightning-web-components-basics) para facilitar seu uso, visto que no cliente era apenas chamado a partir de uma [Trigger](https://trailhead.salesforce.com/pt-BR/content/learn/modules/apex_triggers/apex_triggers_intro)
+- Agora eu resolvi aprimorá-lo e construí um [Lightning Web Component](https://trailhead.salesforce.com/pt-BR/content/learn/modules/lightning-web-components-basics) para facilitar seu uso, visto que no cliente era chamado a partir de uma [Trigger](https://trailhead.salesforce.com/pt-BR/content/learn/modules/apex_triggers/apex_triggers_intro)
 
 <img alt="" src="./images/exemploValido.gif"/>
 
@@ -32,7 +32,7 @@ Sobre o desenvolvimento
   - 1 Factory
   - 27 que extendem a virtual e implementam a interface
   - 2 Test
-- [Lightning Web Component](https://trailhead.salesforce.com/pt-BR/content/learn/modules/lightning-web-components-basics) que pode ser totalmente persoalizado
+- [Lightning Web Component](https://trailhead.salesforce.com/pt-BR/content/learn/modules/lightning-web-components-basics) que pode ser totalmente personalizado
 - Custom labels
 - Static resources
 
