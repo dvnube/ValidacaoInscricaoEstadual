@@ -1,4 +1,4 @@
-![Deploy production](https://raw.githubusercontent.com/dvnube/ValidacaoInscricaoEstadual/master/images/deployproduction.jpg)
+![Deploy production](https://raw.githubusercontent.com/dvnube/ValidacaoInscricaoEstadual/master/images/deployproduction.jpg?token=ASMECFXIG3MRY2OCOKLIZB3AAROVS)
 ![Deploy sandbox](https://raw.githubusercontent.com/dvnube/ValidacaoInscricaoEstadual/master/images/deploysandbox.jpg)
 
 
