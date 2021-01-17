@@ -1,6 +1,6 @@
 <a href="https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000Z3QQAA0">
   <img alt="Deploy to Salesforce (Sandbox)"
-       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+       src="https://dvnube-dev-ed--c.visualforce.com/resource/1610897531000/deploySandbox">
 </a>
 <a href="https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000Z3QQAA0">
   <img alt="Deploy to Salesforce (Production)"
