@@ -10,6 +10,7 @@
         }
     ],
     "namespace": "",
+    "sfdcLoginUrl": "test.salesforce.com",
     "sourceApiVersion": "50.0",
     "packageAliases": {
         "ValidacaoInscricaoEstadual": "0Ho4x000000CaUQCA0",
@@ -19,6 +20,9 @@
         "ValidacaoInscricaoEstadual@1.1.5-4": "04t4x000000Z3QLAA0",
         "ValidacaoInscricaoEstadual@1.2.0-1": "04t4x000000Z3QQAA0",
         "ValidacaoInscricaoEstadual@1.2.0-2": "04t4x000000Z3QVAA0",
-        "ValidacaoInscricaoEstadual@1.2.0-3": "04t4x000000Z3QaAAK"
+        "ValidacaoInscricaoEstadual@1.2.0-3": "04t4x000000Z3QaAAK",
+        "ValidacaoInscricaoEstadual@1.2.0-4": "04t4x000000Z3UnAAK",
+        "ValidacaoInscricaoEstadual@1.2.0-5": "04t4x000000Z3UsAAK",
+        "ValidacaoInscricaoEstadual@1.2.0-6": "04t4x000000Z3UxAAK"
     }
 }
