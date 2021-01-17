@@ -43,7 +43,9 @@ Através do [Lightning App Builder](https://help.salesforce.com/articleView?id=l
 
 <img alt="" src="./images/appBuilder.gif"/>
 
-<img alt="" src="./images/telaConfiguracao.jpg"/>
+<img alt="" src="./images/configuracaoApp1.jpg"/>
+
+<img alt="" src="./images/configuracaoApp2.jpg"/>
 
 Mobile
 ==
