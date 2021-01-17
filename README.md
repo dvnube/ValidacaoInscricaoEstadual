@@ -39,9 +39,21 @@ Sobre o desenvolvimento
 Configuração
 ==
 
-Através do [Lightning App Builder](https://help.salesforce.com/articleView?id=lightning_app_builder_customize_lex_pages.htm&type=5), é possível customizar *quase* tudo:
+Através do [Lightning App Builder](https://help.salesforce.com/articleView?id=lightning_app_builder_customize_lex_pages.htm&type=5), é possível customizar **quase** tudo, no que se diz respeito ao visual:
+
+<img alt="" src="./images/aplicandoComponente.gif"/>
 
 <img alt="" src="./images/telaConfiguracao.jpg"/>
+
+Mobile
+==
+
+Apesar de minha limitação com CSS, consegui deixá-lo pronto para mobile
+
+<img alt="" src="./images/telaMobile.jpg"/>
+
+
+
  
   
   
