@@ -1,14 +1,14 @@
-![Deploy production](https://raw.githubusercontent.com/dvnube/ValidacaoInscricaoEstadual/blob/master/images/deployproduction.jpg)
-![Deploy sandbox](https://raw.githubusercontent.com/dvnube/ValidacaoInscricaoEstadual/blob/master/images/deploysandbox.jpg)
+![Deploy production](https://raw.githubusercontent.com/dvnube/ValidacaoInscricaoEstadual/master/images/deployproduction.jpg)
+![Deploy sandbox](https://raw.githubusercontent.com/dvnube/ValidacaoInscricaoEstadual/master/images/deploysandbox.jpg)
 
 
 
 <a href="https://githubsfdeploy.herokuapp.com">
   <img alt="Deploy Sandbox"
-       src="https://raw.githubusercontent.com/dvnube/ValidacaoInscricaoEstadual/blob/master/images/deploysandbox.jpg">
+       src="https://raw.githubusercontent.com/dvnube/ValidacaoInscricaoEstadual/master/images/deploysandbox.jpg">
 </a>
 
 <a href="https://githubsfdeploy.herokuapp.com">
   <img alt="Deploy Production"
-       src="https://raw.githubusercontent.com/dvnube/ValidacaoInscricaoEstadual/blob/master/images/deployproduction.jpg">
+       src="https://raw.githubusercontent.com/dvnube/ValidacaoInscricaoEstadual/master/images/deployproduction.jpg">
 </a>
