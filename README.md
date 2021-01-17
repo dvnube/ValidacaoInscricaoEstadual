@@ -13,15 +13,15 @@ Validação de Inscrição Estadual
 
 Instalação
 ==
-1) Clique no botão relativo ao ambiente que irá instalá-lo (Sandbox ou Produção)
-	- No exemplo, iremos instalá-lo em "Developer Edition", que é um ambiente de Produção.
-2) Efetue login nesse ambiente
+1) Clique no botão relativo ao ambiente que irá instalá-lo (*Sandbox* ou *Produção*)
+	- No exemplo, iremos instalá-lo em ***Developer Edition***, que é um ambiente de *Produção*.
+2) Efetue login
 3) Selecione para quem deseja instalar
 	- Esse passo dependerá do seu uso em relação ao componente
 	- Você pode selecionar a instalação somente para admins, para todos os usuários ou para perfis específicos
-4) Clique em Instalação
-5) Aguarde a Instalação e aparecerá uma tela para clicar em Concluído
-6) Você será redirecionado para a tela de Pacotes instalados
+4) Clique em **Instalação**
+5) Aguarde a Instalação e aparecerá uma tela para clicar em **Concluído**
+6) Você será redirecionado para a tela de **Pacotes instalados**
 Fim.
 	
 
