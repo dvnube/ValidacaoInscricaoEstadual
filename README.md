@@ -1,5 +1,5 @@
 Validação de Inscrição Estadual
-=================
+==
 
 <a href="https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000Z3QaAAK">
   <img alt="Deploy Sandbox"
@@ -12,30 +12,37 @@ Validação de Inscrição Estadual
 </a>
 
 Sobre
-=====
+==
 
 - Inicialmente eu desenvolvi apenas o "motor" de validação de [Inscrição Estadual](http://www.sintegra.gov.br/insc_est.html) para um cliente que não queria depender de API de terceiros.
 - Agora eu resolvi aprimorá-lo e construí um [Lightning Web Component](https://trailhead.salesforce.com/pt-BR/content/learn/modules/lightning-web-components-basics) para facilitar seu uso, visto que no cliente era apenas chamado a partir de uma [Trigger](https://trailhead.salesforce.com/pt-BR/content/learn/modules/apex_triggers/apex_triggers_intro)
 
 <img alt="" src="./images/tela.jpg"/>
 
-Motor de validação
-==================
+Sobre o desenvolvimento
+==
 
-- Sobre o desenvolvimento:
-  - Apliquei alguns padrões de [Heranças e polimorfismo](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_example.htm) nessa aplicação
-  - Classes:
-    - 1 Enum
-    - 1 Interface
-    - 1 Utils
-    - 1 Controller
-    - 1 Virtual
-    - 1 Factory
-    - 27 que extendem a virtual e implementam a interface
-    - 2 Test
-  - [Lightning Web Component](https://trailhead.salesforce.com/pt-BR/content/learn/modules/lightning-web-components-basics) que pode ser totalmente persoalizado
-  - Custom labels
-  - Static resources
+- Apliquei alguns padrões de [Heranças e polimorfismo](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_example.htm) nessa aplicação
+- Classes:
+  - 1 Enum
+  - 1 Interface
+  - 1 Utils
+  - 1 Controller
+  - 1 Virtual
+  - 1 Factory
+  - 27 que extendem a virtual e implementam a interface
+  - 2 Test
+- [Lightning Web Component](https://trailhead.salesforce.com/pt-BR/content/learn/modules/lightning-web-components-basics) que pode ser totalmente persoalizado
+- Custom labels
+- Static resources
+
+Configuração
+==
+
+Através do [Lightning App Builder](https://help.salesforce.com/articleView?id=lightning_app_builder_customize_lex_pages.htm&type=5), é possível customizar *quase* tudo:
+
+<img alt="" src="./images/telaConfiguracao.jpg"/>
+ 
   
   
   
