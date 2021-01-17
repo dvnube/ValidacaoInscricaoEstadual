@@ -11,22 +11,40 @@ Validação de Inscrição Estadual
        src="./images/deployproduction.jpg"/>
 </a>
 
-Sobre o componente
-============
+Sobre
+=====
 
 - Inicialmente eu desenvolvi apenas o "motor" de validação de [Inscrição Estadual](http://www.sintegra.gov.br/insc_est.html) para um cliente que não queria depender de API de terceiros.
-- Agora eu resolvi aprimorá-lo e construí um [LWC](https://trailhead.salesforce.com/pt-BR/content/learn/modules/lightning-web-components-basics) para facilitar seu uso, visto que no cliente era apenas chamado a partir de uma [Trigger](https://trailhead.salesforce.com/pt-BR/content/learn/modules/apex_triggers/apex_triggers_intro)
+- Agora eu resolvi aprimorá-lo e construí um [Lightning Web Component](https://trailhead.salesforce.com/pt-BR/content/learn/modules/lightning-web-components-basics) para facilitar seu uso, visto que no cliente era apenas chamado a partir de uma [Trigger](https://trailhead.salesforce.com/pt-BR/content/learn/modules/apex_triggers/apex_triggers_intro)
 
 ![tela]<img alt="" src="./images/tela.jpg"/>
 
+Motor de validação
+==================
+
+- Sobre o desenvolvimento:
+  - Apliquei alguns padrões de [Heranças e polimorfismo](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_example.htm) nessa aplicação
+  - Classes:
+    - 1 Enum
+    - 1 Interface
+    - 1 Utils
+    - 1 Controller
+    - 1 Virtual
+    - 1 Factory
+    - 27 que extendem a virtual e implementam a interface
+    - 2 Test
+  - [Lightning Web Component](https://trailhead.salesforce.com/pt-BR/content/learn/modules/lightning-web-components-basics) que pode ser totalmente persoalizado
+  - Custom labels
+  - Static resources
+  
+  
+  
+  
+  
+  
+  
+
 Is derived from the **Dreamforce 2012** presentation on [Apex Enterprise Patterns](https://github.com/financialforcedev/df12-apex-enterprise-patterns) and progresses the patterns further with a more general ongoing home for them. It also adds some form of namespace qualification from the previous version. So that classes are grouped together more easily in the IDE's and packages. Below you can find comprehensive articles and videos on the use of these patterns. There is also a **working sample application** illustrating the patterns [here](https://github.com/apex-enterprise-patterns/fflib-apex-common-samplecode).
-
-![Alt text](/images/patternsturning.png "Optional title")
-
-Application Enterprise Patterns on Force.com
-============================================
-
-Design patterns are an invaluable tool for developers and architects looking to build enterprise solutions. Here are presented some tried and tested enterprise application engineering patterns that have been used in other platforms and languages. We will discuss and illustrate how patterns such as Data Mapper, Service Layer, Unit of Work and of course Model View Controller can be applied to Force.com. Applying these patterns can help manage governed resources (such as DML) better, encourage better separation-of-concerns in your logic and enforce Force.com coding best practices.
 
 Dreamforce Session and Slides
 -----------------------------
