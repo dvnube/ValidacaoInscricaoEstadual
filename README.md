@@ -18,7 +18,7 @@ Deploy via link
  
 Uso
 ==
- - Coloquei o component numa [comunidade pública](https://help.salesforce.com/articleView?id=community_builder_page_access_settings.htm&type=5) para livre uso, divirtam-se.
+ - Coloquei o componente numa [comunidade pública](https://help.salesforce.com/articleView?id=community_builder_page_access_settings.htm&type=5) para livre uso, divirtam-se.
  - Link: https://dvnube01-developer-edition.na150.force.com/s/
 	
 
