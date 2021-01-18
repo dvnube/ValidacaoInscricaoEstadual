@@ -1,1 +1,0 @@
-System.debug(UserInfo.getLocale());
