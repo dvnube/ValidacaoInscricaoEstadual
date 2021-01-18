@@ -55,7 +55,7 @@ Sobre
 Sobre o desenvolvimento
 ==
 
-- Apliquei alguns padrões de [Heranças e polimorfismo](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_example.htm) nessa aplicação
+- Apliquei alguns padrões de [herança e polimorfismo](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_example.htm) nessa aplicação
 - Classes:
   - 1 Enum
   - 1 Interface
