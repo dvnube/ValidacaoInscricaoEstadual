@@ -96,13 +96,19 @@ Espero que seja apenas a minha primeira contribuição de muitas que estão por 
 Agradecimento especial para minha mulher e filha (tá..os bichos também...). 
 Sem vocês eu não conseguiria nada. Amo vocês!
 
-Contato
+Contato - Sinta-se a vontade para falar comigo sobre qualquer assunto! 
 ==
-
-Sintam-se a vontade para entrar em contato comigo para qualquer tirada de dúvidas, sugestões, feedbacks, etc.
-
-Clique na imagem abaixo e será redirecionado para o meu perfil
 <a href="https://www.linkedin.com/in/renato-de-vico/">
   <img alt="Deploy Production"
        src="./images/linkedinLogo.png"/>	  
 </a>
+
+[Clique na imagem acima para ser redirecionado ou, se preferir, clique aqui](https://www.linkedin.com/in/renato-de-vico/)
+
+
+
+Até a próxima.
+
+
+
+
