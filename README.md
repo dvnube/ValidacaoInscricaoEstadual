@@ -101,4 +101,8 @@ Contato
 
 Sintam-se a vontade para entrar em contato comigo para qualquer tirada de dúvidas, sugestões, feedbacks, etc.
 
-LINKEDIN: [Renato De Vico]
+<a href="https://www.linkedin.com/in/renato-de-vico/">
+  <img alt="Deploy Production"
+       src="./images/linkedinLogo.svg"/>
+	Renato De Vico
+</a>
