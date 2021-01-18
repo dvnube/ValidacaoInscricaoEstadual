@@ -69,13 +69,3 @@ Mobile
 Apesar de minha limitação com CSS, consegui deixá-lo pronto para mobile
 
 <img alt="" src="./images/telaMobile.jpg"/>
-  
- 
-
-**Other Related Blogs**
-
-- [Preview of Advanced Apex Patterns Session (Application Factory and ApexMocks Features)](http://andyinthecloud.com/2014/08/26/preview-of-advanced-apex-enterprise-patterns-session/)
-- [Unit Testing with the Domain Layer](http://andyinthecloud.com/2014/03/23/unit-testing-with-the-domain-layer/)
-- [MavensMate Templates](http://andyinthecloud.com/2014/05/23/mavensmate-templates-and-apex-enterprise-patterns/)
-- [FinancialForce Apex Common Updates](http://andyinthecloud.com/2014/06/28/financialforce-apex-common-updates/)
-
