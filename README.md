@@ -11,6 +11,23 @@ Validação de Inscrição Estadual
        src="./images/deployproduction.jpg"/>
 </a>
 
+Caso de uso
+==
+
+	- Quem deve ter Inscrição Estadual?
+		Como regra geral, todas as empresas que comercializam produtos precisam ter Inscrição Estadual. Aquelas que apenas trabalham com serviços não estão obrigadas a realizá-la, pois devem recolher o tributo do ISS (Imposto sobre Serviços), que é de competência municipal.
+	
+Solução e objetivo
+==
+	- Solução
+		- Realizar a validação da Inscrição Estadual de maneira simples, através de um componente altamente personalizado
+	- Objetivo
+		- Facilitar a validação
+		- Contribuir com a comunidade Salesforce
+		- Disponibilizar, gratuitamente e com o código aberto, para incentivar estudo e melhorias
+
+
+
 Instalação
 ==
 1) Clique no botão relativo ao ambiente que irá instalá-lo (*Sandbox* ou *Produção*)
