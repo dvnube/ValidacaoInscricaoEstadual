@@ -103,6 +103,6 @@ Sintam-se a vontade para entrar em contato comigo para qualquer tirada de dúvid
 
 <a href="https://www.linkedin.com/in/renato-de-vico/">
   <img alt="Deploy Production"
-       src="./images/linkedinLogo.svg"/>
+       src="./images/linkedinLogo.png"/>
 	Renato De Vico
 </a>
