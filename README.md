@@ -1,20 +1,20 @@
 Validação de Inscrição Estadual
 ==
 
-<a href="https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000Z3QaAAK">
+<a href="https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000Z3ZAAA0">
   <img alt="Deploy Sandbox"
        src="./images/deploysandbox.jpg">
 </a>
 
-<a href="https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000Z3QaAAK">
+<a href="https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000Z3ZAAA0">
   <img alt="Deploy Production"
        src="./images/deployproduction.jpg"/>
 </a>
 
 Deploy via link
 ==
- - Sandbox: https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000Z3QaAAK
- - Production: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000Z3QaAAK
+ - Sandbox: https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000Z3ZAAA0
+ - Production: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000Z3ZAAA0
 
 Caso de uso
 ==
