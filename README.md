@@ -13,10 +13,8 @@ Validação de Inscrição Estadual
 
 Caso de uso
 ==
-- Quem deve ter Inscrição Estadual?
+- Quem deve ter Inscrição Estadual e quem deve validá-la?
   - [Como regra geral, todas as empresas que comercializam produtos precisam ter Inscrição Estadual. Aquelas que apenas trabalham com serviços não estão obrigadas a realizá-la, pois devem recolher o tributo do ISS (Imposto sobre Serviços), que é de competência municipal.](https://quickbooks.intuit.com/br/blog/documentacao/inscricao-estadual-empresa/#:~:text=Quem%20deve%20ter%20Inscri%C3%A7%C3%A3o%20Estadual%3F,que%20%C3%A9%20de%20compet%C3%AAncia%20municipal.)
-  
- - Quem deve validar a Inscrição Estadual?
   - Caso o número não seja válido, o **Financeiro** da empresa com certeza descobrirá, em algum momento, pois é utilizado para encargos relativos ao [ICMS](https://www.qipu.com.br/dicionario/inscricao-estadual/#:~:text=A%20Inscri%C3%A7%C3%A3o%20Estadual%20%C3%A9%20um,que%20tenham%20repasse%20de%20mercadorias.).
 
 
