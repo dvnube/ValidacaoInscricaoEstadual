@@ -8,9 +8,11 @@
         <target>lightning__RecordPage</target>
         <target>lightning__AppPage</target>
         <target>lightning__HomePage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
     </targets>
     <targetConfigs>
-        <targetConfig targets="lightning__RecordPage,lightning__AppPage,lightning__HomePage">
+        <targetConfig targets="lightning__RecordPage,lightning__AppPage,lightning__HomePage,lightningCommunity__Default">
             <property name="icon" type="String" default="utility:approval" description="Ícone do card" label="Ícone" required="true"/>
             <property name="title" type="String" default="Validador" description="Título do card" label="Título" required="true"/>
             <property name="labelEstado" type="String" default="Estado" description="Label do campo Estado" label="Label da combobox de Estado" required="true"/>
