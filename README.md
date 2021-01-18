@@ -20,11 +20,11 @@ Caso de uso
 Solução e objetivo
 ==
 - Solução
-  - Realizar a validação da Inscrição Estadual de maneira simples, através de um componente altamente personalizado
+  - Realizar a [validação da Inscrição Estadual](http://www.sintegra.gov.br/insc_est.html) de maneira simples, através de um componente altamente personalizado
 - Objetivo  
   - Facilitar a validação da Inscrição Estadual pelo usuário final
   - Contribuir com a comunidade Salesforce
-  - Disponibilizar, gratuitamente e com o código aberto, para incentivar estudo e melhorias
+  - Disponibilizar, gratuitamente e com o código aberto, para incentivar [estudo](https://trailhead.salesforce.com/) e melhorias
 
 
 
@@ -45,7 +45,7 @@ Fim.
 Sobre
 ==
 
-- Inicialmente eu desenvolvi apenas o "motor/cérebro" da validação de [Inscrição Estadual](http://www.sintegra.gov.br/insc_est.html) para um cliente que não queria depender de API de terceiros.
+- Inicialmente eu desenvolvi apenas o *motor* da validação de [Inscrição Estadual](http://www.sintegra.gov.br/insc_est.html) para um cliente que não queria depender de API de terceiros.
 - Decidi aprimorá-lo e construir um [Lightning Web Component](https://trailhead.salesforce.com/pt-BR/content/learn/modules/lightning-web-components-basics) para facilitar seu uso, visto que o "motor" só era utilizado a partir de uma [Trigger](https://trailhead.salesforce.com/pt-BR/content/learn/modules/apex_triggers/apex_triggers_intro)
 - A ideia em disponibilizá-lo publicamente com o código aberto é incentivar o estudo e o aprimoramento do componente.
 - Sintam-se a vontade para utilizá-lo em seus ambientes, customizar da maneira que quiserem, corrigir bugs, etc.
@@ -86,3 +86,19 @@ Mobile
 Apesar de minha limitação com CSS, consegui deixá-lo pronto para mobile
 
 <img alt="" src="./images/telaMobile.jpg"/>
+
+Agradecimentos
+==
+
+Todos que participaram, de alguma maneira, direta ou indireta, meu MUITO obrigado!
+Espero que seja apenas a minha primeira contribuição de muitas que estão por vir...
+
+Agradecimento especial para minha mulher e filha (tá..os bichos também...). 
+Sem vocês eu não conseguiria nada. Amo vocês!
+
+Contato
+==
+
+Sintam-se a vontade para entrar em contato comigo para qualquer tirada de dúvidas, sugestões, feedbacks, etc.
+
+LINKEDIN: [Renato De Vico]
