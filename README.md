@@ -96,7 +96,7 @@ Espero que seja apenas a minha primeira contribuição de muitas que estão por 
 Agradecimento especial para minha mulher e filha (tá..os bichos também...). 
 Sem vocês eu não conseguiria nada. Amo vocês!
 
-Contato - Sinta-se a vontade para falar comigo sobre qualquer assunto! 
+Contato - Sobre qualquer assunto!
 ==
 <a href="https://www.linkedin.com/in/renato-de-vico/">
   <img alt="Deploy Production"
