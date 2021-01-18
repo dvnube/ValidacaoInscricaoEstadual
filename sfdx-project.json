@@ -1,11 +1,29 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "ValidacaoInscricaoEstadual",
+            "versionName": "Versão 1.2",
+            "versionNumber": "1.2.1.NEXT",
+            "versionDescription": "Versão de ajuste para funcionar em comunidades"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "test.salesforce.com",
+    "sourceApiVersion": "50.0",
+    "packageAliases": {
+        "ValidacaoInscricaoEstadual": "0Ho4x000000CaUQCA0",
+        "ValidacaoInscricaoEstadual@1.1.5-1": "04t4x000000Z3Q6AAK",
+        "ValidacaoInscricaoEstadual@1.1.5-2": "04t4x000000Z3QBAA0",
+        "ValidacaoInscricaoEstadual@1.1.5-3": "04t4x000000Z3QGAA0",
+        "ValidacaoInscricaoEstadual@1.1.5-4": "04t4x000000Z3QLAA0",
+        "ValidacaoInscricaoEstadual@1.2.0-1": "04t4x000000Z3QQAA0",
+        "ValidacaoInscricaoEstadual@1.2.0-2": "04t4x000000Z3QVAA0",
+        "ValidacaoInscricaoEstadual@1.2.0-3": "04t4x000000Z3QaAAK",
+        "ValidacaoInscricaoEstadual@1.2.0-4": "04t4x000000Z3UnAAK",
+        "ValidacaoInscricaoEstadual@1.2.0-5": "04t4x000000Z3UsAAK",
+        "ValidacaoInscricaoEstadual@1.2.0-6": "04t4x000000Z3UxAAK",
+        "ValidacaoInscricaoEstadual@1.2.1-1": "04t4x000000Z3ZAAA0"
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "login.salesforce.com",
-  "sourceApiVersion": "50.0"
 }
