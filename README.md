@@ -15,6 +15,12 @@ Deploy via link
 ==
  - Sandbox: https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000Z3ZAAA0
  - Production: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4x000000Z3ZAAA0
+ 
+Uso
+==
+ - Coloquei o component numa [comunidade pública](https://help.salesforce.com/articleView?id=community_builder_page_access_settings.htm&type=5) para livre uso, divirtam-se.
+ - Link: https://dvnube01-developer-edition.na150.force.com/s/
+	
 
 Caso de uso
 ==
