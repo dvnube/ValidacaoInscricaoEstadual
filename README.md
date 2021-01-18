@@ -28,7 +28,7 @@ Fim.
 Sobre
 ==
 
-- Inicialmente eu desenvolvi apenas o "motor" de validação de [Inscrição Estadual](http://www.sintegra.gov.br/insc_est.html) para um cliente que não queria depender de API de terceiros.
+- Inicialmente eu desenvolvi apenas o "cérebro" da validação de [Inscrição Estadual](http://www.sintegra.gov.br/insc_est.html) para um cliente que não queria depender de API de terceiros.
 - Decidi aprimorá-lo e construir um [Lightning Web Component](https://trailhead.salesforce.com/pt-BR/content/learn/modules/lightning-web-components-basics) para facilitar seu uso, visto que o "motor" só era utilizado a partir de uma [Trigger](https://trailhead.salesforce.com/pt-BR/content/learn/modules/apex_triggers/apex_triggers_intro)
 - A ideia em disponibilizá-lo publicamente com o código aberto é incentivar o estudo e o aprimoramento do componente.
 - Sintam-se a vontade para utilizá-lo em seus ambientes, customizar da maneira que quiserem, corrigir bugs, etc.
